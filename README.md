@@ -2,7 +2,8 @@
 
 Professional tool for preparing Chrome Web Store assets. Resize icons, promotional images, screenshots, and generate mockups with custom backgrounds -- all client-side.
 
-**Live demo:** [Chrome Extension Image Resizer](https://terrydigital.github.io/Chrome-Extension-Image-Resizer/)
+**Live [demo](https://ogc16.github.io/ChromeExtensionTool/)** 
+- Forked from:[terrydigital](https://terrydigital.github.io/Chrome-Extension-Image-Resizer/)
 
 ## Features
 
