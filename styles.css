@@ -55,7 +55,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     background: var(--bg-primary);
     background-image:
         linear-gradient(rgba(0, 255, 247, 0.03) 1px, transparent 1px),
@@ -138,7 +138,7 @@ header::before {
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(135deg, var(--neon-cyan), var(--neon-magenta), var(--neon-pink));
@@ -205,7 +205,7 @@ h1 {
     border: none;
     color: var(--text-secondary);
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -286,7 +286,7 @@ h1 {
     color: var(--neon-cyan);
     font-size: 1rem;
     margin-bottom: 1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 255, 247, 0.3);
@@ -305,7 +305,7 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     color: var(--text-secondary);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -489,7 +489,7 @@ h1 {
     margin-bottom: 1rem;
     color: var(--neon-cyan);
     text-shadow: 0 0 20px var(--neon-cyan);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     letter-spacing: 4px;
     animation: flicker 3s ease-in-out infinite;
@@ -602,7 +602,7 @@ h1 {
     color: var(--bg-primary);
     border: none;
     border-radius: 8px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     font-size: 0.9rem;
     cursor: pointer;
@@ -669,7 +669,7 @@ h1 {
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--neon-magenta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
 }
 
 .preview-size {
@@ -717,7 +717,7 @@ h1 {
     color: #fff;
     border: none;
     border-radius: 8px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
     cursor: pointer;
@@ -747,7 +747,7 @@ h1 {
     color: var(--bg-primary);
     border: none;
     border-radius: 12px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
@@ -776,7 +776,7 @@ h1 {
 
 .guide-section h2 {
     color: var(--neon-cyan);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
@@ -854,7 +854,7 @@ h1 {
     color: var(--bg-primary);
     padding: 1rem;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -934,7 +934,7 @@ select, input[type="number"], input[type="color"], input[type="range"] {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     color: var(--text-primary);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
@@ -1016,7 +1016,7 @@ footer a:hover {
     border-radius: 8px;
     background: linear-gradient(135deg, var(--neon-magenta), var(--neon-pink));
     color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Calibri, 'Segoe UI', sans-serif;
     font-weight: 700;
     font-size: 0.85rem;
     letter-spacing: 2px;
