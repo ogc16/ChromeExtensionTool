@@ -153,6 +153,11 @@ h1 {
     filter: drop-shadow(0 0 20px rgba(0, 255, 247, 0.2));
 }
 
+[data-theme="light"] h1 {
+    background: linear-gradient(135deg, #0088aa, #9900cc, #cc0044);
+    filter: none;
+}
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
