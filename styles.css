@@ -154,7 +154,7 @@ h1 {
 }
 
 [data-theme="light"] h1 {
-    background: linear-gradient(135deg, #0088aa, #9900cc, #cc0044);
+    background: linear-gradient(135deg, #0055ff, #aa00ff, #ff0055);
     filter: none;
 }
 
