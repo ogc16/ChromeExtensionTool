@@ -100,24 +100,22 @@ header {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
+    background: none;
+    border: none;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    font-size: 1.3rem;
+    width: 32px;
+    height: 32px;
+    font-size: 1.1rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
-    color: var(--text-primary);
+    transition: opacity 0.2s ease;
+    opacity: 0.6;
 }
 
 .theme-toggle:hover {
-    border-color: var(--neon-cyan);
-    box-shadow: var(--glow-cyan);
-    transform: scale(1.1);
+    opacity: 1;
 }
 
 header::before {
