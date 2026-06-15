@@ -1,85 +1,49 @@
-https://terrydigital.github.io/Chrome-Extension-Image-Resizer/
+# Chrome Extension Image Resizer Pro
 
-# "Mockup Generator"  with:
+Professional tool for preparing Chrome Web Store assets. Resize icons, promotional images, screenshots, and generate mockups with custom backgrounds -- all client-side.
 
-. New Color Scheme 🎨
+**Live demo:** [Chrome Extension Image Resizer](https://terrydigital.github.io/Chrome-Extension-Image-Resizer/)
 
-Changed from blue/dark theme to orange/purple/teal:
+## Features
 
-Primary: Orange (#FF6B35)
-Secondary: Golden Orange (#F7931E)
-Accent: Teal (#4ECDC4)
-Dark Purple backgrounds (#2E294E, #1B1725)
+- **Icons** -- Generate 16x16, 32x32, 48x48, and 128x128 icons from a single upload. Supports contain/cover/fill resize modes, padding, and background color.
+- **Promotional** -- Create Small Tile (440x280), Marquee (1400x560), and Screenshot (1280x800) from one image. Adjustable crop position (top/center/bottom).
+- **Screenshots** -- Batch resize up to 5 screenshots to 1280x800 or 640x400. Supports contain and cover modes.
+- **Mockup Generator** -- Compose screenshots onto custom backgrounds with a live canvas preview.
+  - Background types: solid color, gradient (6 presets + custom two-color), or uploaded image (with blur and dim overlay)
+  - Screenshot positioning: left, center, right
+  - Tagline system: enable/disable, position (top/bottom), font size, color, alignment, weight
+  - Export presets: CWS Thumbnail (440x280), CWS Screenshot (1280x800), Featured Promo (1400x560), Social Media (1080x1080)
+  - Export selected sizes individually or all as a ZIP file
+- **Guide** -- Built-in reference for the Chrome Web Store submission process, including a preparation checklist, step-by-step upload guide, specification reference table, and common rejection reasons.
 
+All image processing runs entirely in the browser. No files are uploaded to any server.
 
-Much more vibrant and modern!
+## Usage
 
-2. Tagline System ✍️
+1. Open the tool in your browser.
+2. Navigate between tabs: **Icons**, **Promotional**, **Screenshots**, **Mockup Generator**, **Guide**.
+3. Upload your source image(s) in each tab.
+4. Adjust resize options, background, and tagline settings as needed.
+5. Download individual images or use the ZIP export for batch downloads.
 
-✅ Enable/disable checkbox
-✅ Text input with live preview
-✅ Position: Top or Bottom
-✅ Font size slider (20-80px)
-✅ Text color picker
-✅ Text alignment: Left, Center, Right
-✅ Font weight: Regular, Semi-Bold, Bold, Extra Bold
-✅ Text shadow for better readability
+## File Structure
 
-3. Screenshot Positioning 📱
+```
+index.html       -- Main HTML document
+styles.css       -- All styles (extracted from original inline <style>)
+script.js        -- All JavaScript logic (extracted from original inline <script>)
+README.md        -- This file
+```
 
-✅ Left alignment
-✅ Center alignment (default)
-✅ Right alignment
-Layout automatically adjusts to tagline position
+## Development
 
-4. Smart Layout System
+This is a single-page application with no build step. To run locally, serve the directory with any static file server:
 
-Screenshot and tagline work together intelligently
-Space is calculated dynamically
-Tagline at top pushes screenshot down
-Tagline at bottom keeps screenshot centered
+```bash
+npx serve .
+```
 
-5. Export with All Features
+## License
 
-All exports (individual & ZIP) include:
-
-Custom backgrounds
-Screenshot positioning
-Taglines with all styling
-Properly scaled for each size
-
-
-
-🎯 How to Use:
-
-Upload screenshot in Mockup Generator tab
-Choose screenshot position: Left/Center/Right
-Enable tagline and add your text
-Customize tagline: size, color, position, alignment
-Set background: Solid/Gradient/Image
-Export in multiple sizes!
-
-Background System:
-
-✅ Solid colors with color picker
-✅ Gradient presets (Dark SaaS, Neon, Pastel, Ocean, Sunset, Forest)
-✅ Custom 2-color gradients
-✅ Image backgrounds with Cover/Contain modes
-✅ Blur control (0-20px)
-✅ Dim overlay (0-80%)
-
-
-Locked Layout System:
-
-✅ Screenshot stays centered and locked
-✅ Auto-scaling with fixed proportions
-✅ Professional shadow effects
-
-
-Export Presets:
-
-✅ Chrome Web Store Thumbnail (440×280)
-✅ Chrome Web Store Screenshot (1280×800)
-✅ Featured Promo (1400×560)
-✅ Social Media (1080×1080)
-✅ Export selected sizes or all as ZIP
+MIT
