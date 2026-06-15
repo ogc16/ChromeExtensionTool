@@ -37,8 +37,8 @@
     --neon-yellow: #b38600;
     --neon-blue: #0066cc;
     --neon-orange: #cc5500;
-    --text-primary: #1a1a2e;
-    --text-secondary: #6666aa;
+    --text-primary: #000000;
+    --text-secondary: #333366;
     --border-color: #c8c8d8;
     --glow-cyan: 0 0 10px rgba(0, 153, 204, 0.15), 0 0 20px rgba(0, 153, 204, 0.05);
     --glow-magenta: 0 0 10px rgba(204, 0, 102, 0.15), 0 0 20px rgba(204, 0, 102, 0.05);
