@@ -154,7 +154,11 @@ h1 {
 }
 
 [data-theme="light"] h1 {
-    background: linear-gradient(135deg, #0055ff, #aa00ff, #ff0055);
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: #0055ff;
+    color: #0055ff;
     filter: none;
 }
 
