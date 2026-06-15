@@ -30,20 +30,20 @@
     --bg-secondary: #e8e8f0;
     --bg-card: #ffffff;
     --bg-hover: #e0e0f0;
-    --neon-cyan: #0099cc;
-    --neon-magenta: #cc0066;
-    --neon-pink: #e6005c;
-    --neon-green: #00994d;
-    --neon-yellow: #b38600;
-    --neon-blue: #0066cc;
-    --neon-orange: #cc5500;
+    --neon-cyan: #5fa8d3;
+    --neon-magenta: #c77dff;
+    --neon-pink: #ff8fab;
+    --neon-green: #7ec8a0;
+    --neon-yellow: #e9c46a;
+    --neon-blue: #7bb3e0;
+    --neon-orange: #f4a261;
     --text-primary: #000000;
     --text-secondary: #333366;
     --border-color: #c8c8d8;
-    --glow-cyan: 0 0 10px rgba(0, 153, 204, 0.15), 0 0 20px rgba(0, 153, 204, 0.05);
-    --glow-magenta: 0 0 10px rgba(204, 0, 102, 0.15), 0 0 20px rgba(204, 0, 102, 0.05);
-    --glow-pink: 0 0 10px rgba(230, 0, 92, 0.15), 0 0 20px rgba(230, 0, 92, 0.05);
-    --glow-green: 0 0 10px rgba(0, 153, 77, 0.15), 0 0 20px rgba(0, 153, 77, 0.05);
+    --glow-cyan: 0 0 10px rgba(95, 168, 211, 0.15), 0 0 20px rgba(95, 168, 211, 0.05);
+    --glow-magenta: 0 0 10px rgba(199, 125, 255, 0.15), 0 0 20px rgba(199, 125, 255, 0.05);
+    --glow-pink: 0 0 10px rgba(255, 143, 171, 0.15), 0 0 20px rgba(255, 143, 171, 0.05);
+    --glow-green: 0 0 10px rgba(126, 200, 160, 0.15), 0 0 20px rgba(126, 200, 160, 0.05);
 }
 
 [data-theme="light"] body {
