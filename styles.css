@@ -25,6 +25,35 @@
     --glow-green: 0 0 10px rgba(0, 255, 65, 0.3), 0 0 20px rgba(0, 255, 65, 0.1);
 }
 
+[data-theme="light"] {
+    --bg-primary: #f0f0f5;
+    --bg-secondary: #e8e8f0;
+    --bg-card: #ffffff;
+    --bg-hover: #e0e0f0;
+    --neon-cyan: #0099cc;
+    --neon-magenta: #cc0066;
+    --neon-pink: #e6005c;
+    --neon-green: #00994d;
+    --neon-yellow: #b38600;
+    --neon-blue: #0066cc;
+    --neon-orange: #cc5500;
+    --text-primary: #1a1a2e;
+    --text-secondary: #6666aa;
+    --border-color: #c8c8d8;
+    --glow-cyan: 0 0 10px rgba(0, 153, 204, 0.15), 0 0 20px rgba(0, 153, 204, 0.05);
+    --glow-magenta: 0 0 10px rgba(204, 0, 102, 0.15), 0 0 20px rgba(204, 0, 102, 0.05);
+    --glow-pink: 0 0 10px rgba(230, 0, 92, 0.15), 0 0 20px rgba(230, 0, 92, 0.05);
+    --glow-green: 0 0 10px rgba(0, 153, 77, 0.15), 0 0 20px rgba(0, 153, 77, 0.05);
+}
+
+[data-theme="light"] body {
+    background-image: none;
+}
+
+[data-theme="light"] body::after {
+    display: none;
+}
+
 body {
     font-family: 'Segoe UI Variable', 'Segoe UI', sans-serif;
     background: var(--bg-primary);
@@ -65,6 +94,30 @@ header {
     text-align: center;
     padding: 3rem 0;
     position: relative;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: var(--text-primary);
+}
+
+.theme-toggle:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: var(--glow-cyan);
+    transform: scale(1.1);
 }
 
 header::before {
