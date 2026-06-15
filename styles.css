@@ -183,7 +183,7 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     overflow: hidden;
-    background: rgba(10, 10, 26, 0.8);
+    background: transparent;
     backdrop-filter: blur(10px);
     animation: slideUp 0.8s ease 0.4s both;
     box-shadow: 0 0 15px rgba(0, 255, 247, 0.05);
