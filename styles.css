@@ -100,22 +100,24 @@ header {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    background: none;
-    border: none;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    font-size: 1.1rem;
+    background: transparent;
+    border: 2px solid var(--neon-cyan);
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.2s ease;
-    opacity: 0.6;
+    color: var(--neon-cyan);
+    box-shadow: 0 0 8px rgba(0, 255, 247, 0.2), inset 0 0 8px rgba(0, 255, 247, 0.05);
+    transition: all 0.3s ease;
 }
 
 .theme-toggle:hover {
-    opacity: 1;
+    box-shadow: 0 0 16px rgba(0, 255, 247, 0.4), inset 0 0 12px rgba(0, 255, 247, 0.1);
+    transform: scale(1.05);
 }
 
 header::before {
@@ -232,8 +234,9 @@ h1 {
 
 .tab.active {
     color: var(--bg-primary);
-    background: linear-gradient(135deg, var(--neon-cyan), var(--neon-blue));
-    box-shadow: var(--glow-cyan);
+    background: linear-gradient(135deg, var(--neon-magenta), var(--neon-pink));
+    box-shadow: var(--glow-magenta);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 .tab-content {
